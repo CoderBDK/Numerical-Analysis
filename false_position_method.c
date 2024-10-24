@@ -16,3 +16,12 @@ void false_position(double a, double b, double tol) {
     }
     printf("Root: %lf\n", c);
 }
+
+int main() {
+    
+    double a = 0, b = 3, tol = 0.01;
+    printf("False Position Method:\n");
+    false_position(a, b, tol);
+
+    return 0;
+}
