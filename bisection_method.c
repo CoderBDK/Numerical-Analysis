@@ -18,3 +18,11 @@ void bisection(double a, double b, double tol) {
     }
     printf("Root: %lf\n", c);
 }
+int main() {
+    
+    double a = 0, b = 3, tol = 0.01;
+    printf("Bisection Method:\n");
+    bisection(a, b, tol);
+
+    return 0;
+}
